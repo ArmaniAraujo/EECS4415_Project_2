@@ -48,6 +48,7 @@ EECS4415_Project_2/
 ├─ q4reducer.py
 ├─ info.txt
 ├─ README.md
+├─ FAQ.md
 ├─ Q1.png
 ├─ .gitignore
 ```
@@ -58,6 +59,8 @@ You should strictly follow the specified directory structure. Implementations th
 ## Evaluation
 Your scripts will be executed in a Hadoop cluster (Apache Hadoop 3.3.1). An automated judge will programmatically evaluate your solution. Please refer to each question for the detailed breakdown of project marks. Please note implementations that do not exactly follow the implementation and submission instructions will be marked as 0 by the judge system.
 
+## Frequently Asked Questions
+Please refer to [FAQ.md](FAQ.md).
 
 ## Q1. Distributed Construction of the Inverted Index (25%)
 In information retrieval, an inverted index is an index data structure that stores a mapping from words to a collection of documents that they appear in. Your task is to build an inverted index that maps categories (of businesses) to businesses. In other words, given a collection of businesses, an inverted index is a dictionary where each category is associated with a list of the business ids (comma-separated) that belong to that category. See the example below:
