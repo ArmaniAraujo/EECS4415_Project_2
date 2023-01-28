@@ -1,4 +1,4 @@
-# Frequently Asked Questions
+# Q&As on the Project Description
 ## As you mentioned 6 minutes per script of MapReduce Algorithm and if mine is taking 7-8 minutes on my x86 laptop would it still finish under 6 minutes on the test computer that will be used to evaluate our scripts?
 We couldn't comment on this since each student's implementation may vary. The MapReduce algorithm should run very fast if implemented properly because the nature of MapReduce is distributed computing.
 ## The format mentions order is not important for q1, does this mean the following list of inverted indices are equally valid:
