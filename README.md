@@ -1,8 +1,8 @@
 # EECS4415-Big Data Systems: Project 2 (20%)
 
 **Title:** Distributed Big Data Analytics using Python   
-**Start:** February 21, 2022, @ 9:00am EST   
-**Due:** March 14, 2022, by 9:00pm EST
+**Start:** February 20, 2023, @ 9:00am EST   
+**Due:** March 13, 2023, by 9:00pm EST
 
 ## Objectives
 
