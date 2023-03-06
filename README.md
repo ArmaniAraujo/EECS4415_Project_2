@@ -48,7 +48,7 @@ EECS4415_Project_2/
 ├─ q4reducer.py
 ├─ info.txt
 ├─ README.md
-├─ FAQ.md
+├─ QA.md
 ├─ Q1.png
 ├─ .gitignore
 ```
