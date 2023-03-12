@@ -134,3 +134,4 @@ yelp_academic_dataset_tip.json
 yelp_academic_dataset_review.json
 q1reducer.out
 q1mapper.out
+test_user.json

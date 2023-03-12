@@ -2,9 +2,10 @@
 
 dataDict = {}
 
-'''
-    Currently working with unsorted file
-    Should I sort it? If so, where? who does the sorting?
+'''   
+    TODO:   Currently working with unsorted file
+            Should I sort it? If so, where? who does the sorting?
+    TODO:   Possibly need to output final information onto console instead
 '''
 
 with open('q1mapper.out', encoding='utf-8') as f:
@@ -18,7 +19,7 @@ with open('q1mapper.out', encoding='utf-8') as f:
 
 with open('q1reducer.out', 'w') as w:
     for cat in dataDict:
-        w.write(cat + ' [')
-        w.write(','.join(dataDict[cat]))
+        w.write(cat + ' \t[')
+        w.write(', '.join(dataDict[cat]))
         w.write(']\n')
 

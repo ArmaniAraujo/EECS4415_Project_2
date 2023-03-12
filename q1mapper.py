@@ -6,6 +6,7 @@
 
     TODO:   Try to put outputString into string variable
             and print entire thing into file later
+            Probably won't need to delete the output file
 '''
 
 import json
