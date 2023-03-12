@@ -1,0 +1,15 @@
+Picture of Gianluca Di Giovanni
+In reply to Jasleen Chagger
+Re: Vbox project 2 testing
+by Gianluca Di Giovanni - Friday, 10 March 2023, 12:16 PM
+I copied the url from the download button on the yelp page, and downloaded the file using the wget command. you can download the command using "sudo apt install wget".
+To download the files then type wget followed by the file url "wget "file url""
+although you will have to then uzip the downloaded file using the unzip command.
+Picture of Sara Naeem
+In reply to Gianluca Di Giovanni
+Re: Vbox project 2 testing
+by Sara Naeem - Friday, 10 March 2023, 6:53 PM
+Hey,
+I was facing this issue as well, I found that it's easiest if you use Jupyter Notebook (set it up the same way as lab 4). Once it's set up you can upload your input and even python files there (either use the upload button or drag-and-drop them into the left hand side panel).
+You might have to set the permissions (chmod 774 filename) though btw!
+Hope this helps! :)
