@@ -135,3 +135,17 @@ yelp_academic_dataset_review.json
 q1reducer.out
 q1mapper.out
 test_user.json
+business_checkin_merged.json
+EECS4415_Project_2.zip
+info.txt
+potato.txt
+q4mapperV2.py
+q4reducerV2.py
+temp.txt
+test_checkin.json
+test_q4reducer.out
+test_q4reducer.py
+testing/q1mapper.py
+testing/q1reducer.py
+testing/q1mapper.py
+testing/q1reducer.py

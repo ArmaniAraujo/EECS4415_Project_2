@@ -2,7 +2,17 @@
 
 import sys
 
+dataDict = {}
 
-dict = {'a':4, 'b':3, 'c':5, 'd':12}
+for line in sys.stdin:
+    id, date, ufc = line.strip().split('\t')
+    dataDict[(id,date)] = ufc
 
-print(sorted(dict))
+# https://www.freecodecamp.org/news/sort-dictionary-by-value-in-python/
+sortedDataList = sorted(dataDict.items(), key=lambda x:x[1], reverse=True)
+
+for item in range(0,4415):
+    print(sortedDataList[item][0][0], sortedDataList[item][1], sep='\t')
+
+
+    

@@ -24,11 +24,6 @@ for jsonObj in sys.stdin:
                 for category in categoryList:
                   print(category,':',businessID, sep='')
 
-    # with open('q1mapper.out', 'a') as w:
-    #     for category in categoryList:
-    #         w.write(category + ':' + businessList[-1]['business_id'] + '\n')
-
-    
     categoryList.clear()
 
 
